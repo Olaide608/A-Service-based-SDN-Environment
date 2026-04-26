@@ -32,15 +32,15 @@ Overall, this project follows a service-based hybrid SDN approach because SDN is
 
 The image below confirms that the Open vSwitches were discovered through LLDP, enabling the OpenDaylight controller to identify and display the network topology:
 
-<img width="450" height="211" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
+<img width="450" height="211" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" /> </br>
 
 Subsequently, the command below was executed on the switch to verify its connection to the OpenDaylight controller:
 
-<img width="348" height="211" alt="Screenshot 2026-04-26 103103" src="https://github.com/user-attachments/assets/1b344edc-cad5-4004-921a-370ef9a1eee9" />
+<img width="348" height="211" alt="Screenshot 2026-04-26 103103" src="https://github.com/user-attachments/assets/1b344edc-cad5-4004-921a-370ef9a1eee9" /> </br>
 
 This shows the flow rule injected through OpenFlow Manager on OVS1 to match incoming IP packets and encapsulate them with an MPLS label before forwarding them toward OVS2:
 
-<img width="1672" height="941" alt="Screenshot 2026-04-05 1254521" src="https://github.com/user-attachments/assets/e46bafb4-5759-48c4-9b03-7a99533351a1" />
+<img width="1672" height="941" alt="Screenshot 2026-04-05 1254521" src="https://github.com/user-attachments/assets/e46bafb4-5759-48c4-9b03-7a99533351a1" /> </br>
 
 This shows the flow rule injected through OpenFlow Manager on OVS2 to match incoming MPLS packets, pop the MPLS label, and decapsulate them into IP packets before forwarding them to router 2:
 
