@@ -27,3 +27,5 @@ The entire lab is built and tested in GNS3, which provides the simulation enviro
 Overall, this project follows a service-based hybrid SDN approach because SDN is not used to replace the whole network. Instead, it is added as a programmable service layer to support selected MPLS operations, while the traditional network continues to provide stable routing and connectivity.
 
 <img width="1672" height="941" alt="PrOJECT PROCESS" src="https://github.com/user-attachments/assets/dd7c5420-31d8-406c-9924-a067c178700f" />
+
+<img width="1913" height="940" alt="Screenshot 2026-04-26 103405" src="https://github.com/user-attachments/assets/ebc95432-6642-433f-b926-4dd6334b73da" />
