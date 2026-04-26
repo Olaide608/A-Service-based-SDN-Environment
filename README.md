@@ -38,5 +38,6 @@ Subsequently, the command below was executed on the switch to verify its connect
 
 <img width="348" height="211" alt="Screenshot 2026-04-26 103103" src="https://github.com/user-attachments/assets/1b344edc-cad5-4004-921a-370ef9a1eee9" />
 
-<img width="1916" height="943" alt="Screenshot 2026-04-05 125452" src="https://github.com/user-attachments/assets/155f0ec4-3a62-4461-b9ce-c9a257369fe1" />
+<img width="830" height="818" alt="Screenshot 2026-04-05 1254521" src="https://github.com/user-attachments/assets/e46bafb4-5759-48c4-9b03-7a99533351a1" />
+
 
